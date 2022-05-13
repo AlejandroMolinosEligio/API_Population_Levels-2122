@@ -4,7 +4,7 @@
 	"values": [
 		{
 			"key": "HOST",
-			"value": "https://sos2122-10.herokuapp.com",
+			"value": "https://api-population-levels.herokuapp.com",
 			"type": "default",
 			"enabled": true
 		},

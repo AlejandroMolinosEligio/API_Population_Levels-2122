@@ -2,7 +2,9 @@
     <br>
     <h1 style="text-align: center;">API POPULATION LEVELS</h1>
     <br><br>
-    <p>Esta API actualmente contiene un total de 25 datos, con las claves asociadas de país y año.</p>
+    <p>Esta API actualmente contiene un total de 25 datos, con las claves asociadas de país y año. Los datos por defecto ya están inicializados, no obstante sigue existiendo la petición para cargar los datos desde la URL:
+        <a href="https://api-population-levels.herokuapp.com/api/v2/loadInitialData">https://api-population-levels.herokuapp.com/api/v2/loadInitialData</a>
+    </p>
     <br>
     <ul>
         <li><b>GET</b></li>
@@ -54,7 +56,7 @@
                 )</li>
             </ul>
             <li>Las peticiones de UPDATE solo pueden realizarse a un recurso específico pasado los datos a través del <b>body</b>.
-            Por ejemplo: [URL]/api/v2/population_levels/spain/2019</li>
+            Por ejemplo: https://api-population-levels.herokuapp.com/api/v2/population_levels/spain/2019</li>
         </ul>
         <br>
     </ul>
