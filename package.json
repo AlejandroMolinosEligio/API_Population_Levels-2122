@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nedb": "^1.8.0",
+    "svelte-spa-router": "^3.2.0",
+    "sveltestrap": "^5.9.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test-population-levels": "npx newman run ./test/backend_API_population-levels.json -e ./test/env/Variables_Population-levels.json",
+    "test": "npm run test-population-levels",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.48.0"
+  }
+}
